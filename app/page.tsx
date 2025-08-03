@@ -33,7 +33,7 @@ export default function QRCheckInPage() {
   const [isScannerSimulated, setIsScannerSimulated] = useState(false)
   const { toast } = useToast()
 
-  const backendUrl = "https://exam-duty-assigner-backend.onrender.com"
+  const backendUrl = "https://examdutyassigner-backend-production.up.railway.app"
 
   useEffect(() => {
     const fetchSession = async () => {
